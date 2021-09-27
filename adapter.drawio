@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T11:48:53.910Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="15.3.4" etag="kyRJOYPj219MvXM_gbzL" type="github"><diagram id="_Hvu2zmco7wdPqRHZ3Lv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-27T14:14:53.185Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="uAEaguyd2kQrkZHd4YWA" version="15.3.4" type="github">
+  <diagram id="_Hvu2zmco7wdPqRHZ3Lv" name="Page-1">
+    <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="510" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-2" value="Adapter &amp;amp;&amp;amp; Factory" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="90" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-4" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;eg:&lt;/span&gt;&lt;span style=&quot;background-color: inherit ; font-family: &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;andale mono&amp;quot; , &amp;quot;lucida console&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: inherit ; color: rgb(18 , 18 , 18) ; text-align: left&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; font-size: 0.9em ; overflow: auto ; background: rgb(246 , 246 , 246) ; border-radius: 4px ; color: rgb(18 , 18 , 18)&quot;&gt;&lt;code class=&quot;language-yaml&quot; style=&quot;margin: 0px ; padding: 0px ; border-radius: 0px ; font-family: &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;andale mono&amp;quot; , &amp;quot;lucida console&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: inherit ; background-color: inherit&quot;&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;defaultSchema&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;db1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;schemas&quot;: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;        &lt;/span&gt;{&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;factory&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;org.apache.calcite.adapter.jdbc.JdbcSchema$Factory&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;name&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;db1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;operand&quot;: &lt;/span&gt;{&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;jdbcDriver&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;com.mysql.cj.jdbc.Driver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;jdbcPassword&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;changeme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;jdbcUrl&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;jdbc:mysql://localhost:3306/test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;jdbcUser&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;root&quot;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;            &lt;/span&gt;}&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;type&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;custom&quot;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;        &lt;/span&gt;}&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;nt&quot; style=&quot;color: rgb(23 , 81 , 153)&quot;&gt;&quot;version&quot;: &lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;color: rgb(241 , 64 , 60)&quot;&gt;&quot;1.0&quot;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;w&quot; style=&quot;color: rgb(191 , 191 , 191)&quot;&gt;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;shadow=1;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="20" width="570" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-5" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;SchemaFactory" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-6" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;SubSchema" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-7" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Schema" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-8" value="&amp;lt;&amp;lt;JSON&amp;gt;&amp;gt;&lt;br&gt;Model" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=classicThin;startFill=1;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="472Oz2ukl8m_HtSCBSq0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="158" as="sourcePoint" />
+            <mxPoint x="175" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="472Oz2ukl8m_HtSCBSq0-8" target="472Oz2ukl8m_HtSCBSq0-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="168" as="sourcePoint" />
+            <mxPoint x="230" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-12" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Function" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-13" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Expression" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-14" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Table" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="472Oz2ukl8m_HtSCBSq0-5" target="472Oz2ukl8m_HtSCBSq0-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="168" as="sourcePoint" />
+            <mxPoint x="320" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="472Oz2ukl8m_HtSCBSq0-7" target="472Oz2ukl8m_HtSCBSq0-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="186" as="sourcePoint" />
+            <mxPoint x="275" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="472Oz2ukl8m_HtSCBSq0-7" target="472Oz2ukl8m_HtSCBSq0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="266" as="sourcePoint" />
+            <mxPoint x="215" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="472Oz2ukl8m_HtSCBSq0-7" target="472Oz2ukl8m_HtSCBSq0-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="260" as="sourcePoint" />
+            <mxPoint x="325" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="472Oz2ukl8m_HtSCBSq0-7" target="472Oz2ukl8m_HtSCBSq0-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="260" as="sourcePoint" />
+            <mxPoint x="435" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="472Oz2ukl8m_HtSCBSq0-20" value="instantiates" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;hachureGap=4;pointerEvents=0;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="70" height="14" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
