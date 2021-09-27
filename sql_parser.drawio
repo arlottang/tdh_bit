@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T11:17:19.328Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="15.3.4" etag="5sUxBs0pCgIg6X-6tyB2" type="github"><diagram id="FK_EYPYNZeceUQXpnn1h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-27T11:38:00.414Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="6yf2VzWvPskaKG4kLMxL" version="15.3.4" type="github">
+  <diagram id="FK_EYPYNZeceUQXpnn1h" name="Page-1">
+    <mxGraphModel dx="931" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-2" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="740" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-1" value="SQL Parser&lt;br&gt;and Vaildator" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;hachureGap=4;pointerEvents=0;strokeWidth=1;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="90" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="630" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-5" value="Calcite 通过 JavaCC 将SQL 解析成未校验的AST（Abstract Syntax Tree）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="106.5" width="440" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="570" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-7" value="includes/parserImpls.ftl" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-8" value="templates/parser.jj" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-9" value="fmpp" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;shadow=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-10" value="config.fmpp" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-12" value="" style="endArrow=classicThin;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endFill=1;" edge="1" parent="1" source="QB38KlsuNQnuv_5i9Iaj-10" target="QB38KlsuNQnuv_5i9Iaj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-13" value="" style="endArrow=classicThin;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QB38KlsuNQnuv_5i9Iaj-7" target="QB38KlsuNQnuv_5i9Iaj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="400" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="570" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-15" value="Javacc" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-18" value="fmpp/java/parser.jj" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-19" value="javacc/*" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="540" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-21" value="" style="endArrow=classicThin;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QB38KlsuNQnuv_5i9Iaj-8" target="QB38KlsuNQnuv_5i9Iaj-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="260" as="sourcePoint" />
+            <mxPoint x="265" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-22" value="" style="endArrow=classicThin;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QB38KlsuNQnuv_5i9Iaj-18" target="QB38KlsuNQnuv_5i9Iaj-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="270" as="sourcePoint" />
+            <mxPoint x="275" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-23" value="生成Parser.jj" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="330" y="384" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QB38KlsuNQnuv_5i9Iaj-24" target="QB38KlsuNQnuv_5i9Iaj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QB38KlsuNQnuv_5i9Iaj-24" value="生成SQL语句的词法分析和语法解析器（Class）" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;hachureGap=4;pointerEvents=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="325" y="630" width="275" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
