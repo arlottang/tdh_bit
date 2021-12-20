@@ -1,1 +1,235 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:10:14.165Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="15.9.6" etag="LcGb1Hxce4ztH4IJsFcC" type="github"><diagram id="60_GQY9DnkP5nn3rlp66">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-20T13:01:20.790Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="ByFpSPYxfI28o1PJHGF4" version="15.9.6" type="github">
+  <diagram id="60_GQY9DnkP5nn3rlp66" name="Page-1">
+    <mxGraphModel dx="1590" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="480" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-11" value="Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-12" value="KeyFormat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-13" value="Value" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-14" value="DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-15" value="raft_log_key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-16" value="0x01 0x02 region_id 0x01 log_idx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="120" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-17" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="360" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-18" value="raft" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="480" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-19" value="raft_state_key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-20" value="0x01 0x02 region_id 0x02" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="120" y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-21" value="RaftLocalState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-22" value="raft" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-23" value="apply_state_key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-24" value="0x01 0x02 region_id 0x03" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="120" y="120" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-25" value="RaftApplyState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="360" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-26" value="kv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="480" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-27" value="Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-28" value="0x01 0x03 region_id 0x01" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="120" y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-29" value="RegionLocalState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="360" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-30" value="kv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-31">
+          <mxGeometry x="480" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="320" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-5" value="RaftLocalState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-32">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-6" value="RaftApplyState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-32">
+          <mxGeometry y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-7" value="RegionLocalState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-32">
+          <mxGeometry y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-8" value="存储当前raft的hardState和Last Log Index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-32">
+          <mxGeometry x="160" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-9" value="用于存储Raft应用状态的last log index和一些log截断信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-32">
+          <mxGeometry x="160" y="40" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-10" value="用于存储Region的信息和对应peer的状态，normal代表正常，&lt;br&gt;tombstone代表删除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-32">
+          <mxGeometry x="160" y="80" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-2" value="store" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-33">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-3" value="peer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-33">
+          <mxGeometry y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-4" value="region" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="yrj0Tw3yxtRZ-jhyw6Fl-33">
+          <mxGeometry y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="990" y="120" width="890" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-35" value="RaftStore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="990" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-36" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="230" width="52" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-37" value="RaftBatchSystem" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-38" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="230" width="52" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-39" value="ApplyBatchSystem" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-42" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-43" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#66B2FF;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="335" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-44" value="驱动raft状态机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-10" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-45" value="日志的分发、落盘、状态迁移等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="30" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-46" value="当日志被提交以后会发往ApplyBatchSystem进行处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="70" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-47" value="append log" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="315" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-48" value="apply log" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-49" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#66B2FF;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1511" y="335" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-50" value="Raft log" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-51" value="Data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="1536" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-52" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#66B2FF;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="231" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-53" value="Replicate to instances" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="291" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="1160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-55" value="Peer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-57" value="封装了Raft RawNode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="770" y="720" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-58" value="对Raft的Propose，ready的处理都是在peer里面完成的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="770" y="760" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-59" value="Peer的propose是外部Client command的入口，会判断cmd的类型，并处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="770" y="800" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-60" value="只读：Leader在lease有效期内，直接提供local read，不走raft流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="720" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-61" value="Transfer：Peer首先会判断自己是否还是leader，同时判断新的leader是不是有足够新的log，如果都满足，Peer就会调用RawNode的transfer_leader命令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="760" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-62" value="Change Peer：调用RawNode propose_conf_change命令，其它命令直接调用RawNode的propose命令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="800" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-64" value="在propose之前，Peer也会将这个command对应的callback存到PendingCmd里面，当对应的log被applied之后，&lt;br&gt;会通过command里面的唯一的uuid找到对应的callback调用，并给Client返回相应的结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="660" y="890" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-65" value="Peer的handle_raft_ready系列函数，当一个RawNode ready之后，我们需要对ready里面的数据做一系列处理，&lt;br&gt;包括将entries写入Storage，发送msg，apply committed_entries以及advance等，全部在Peer的handle_raft_ready系列函数里面完成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="660" y="970" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-66" value="committed_entries的处理：TODO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1050" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-67" value="kv/raftstore/peer_storage.go" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1130" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1580" width="1160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-69" value="Ready" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-70" value="Raft状态的更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1460" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-71" value="hs:Raft相关的元信息更新&lt;br&gt;如curTerm、VoteFor、commit Idx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1500" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-72" value="committed_entries：最新被commit的日志，&lt;br&gt;需要应用到状态机中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1540" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-73" value="message：需要发送给其它peer的日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1460" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-74" value="entries：需要保存的日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1500" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1540" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-76" value="PeerFsm用于接收和处理Raft消息，它接收的消息为PeerMsg，根据消息类型的不同会有不同的处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1630" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-77" value="RaftMessage：其它节点发送过来的raft消息，包括心跳、日志、投票消息等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1710" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-78" value="RaftCommand：上层提出的proposal，其中包含了需要通过Raft同步的操作，以及操作成功之后需要调用的callback函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1790" width="940" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrj0Tw3yxtRZ-jhyw6Fl-79" value="ApplyRes：ApplyFsm在将日志应用到状态机之后发送给PeerFsm的消息，用于在进行操作之后更新某些内存状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1870" width="940" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
