@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T08:43:20.905Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ApDohwc4igNGxkAfG4Fw" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T11:20:21.731Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="6O8MZCvPqu2dExX7Uj1s" version="16.2.2" type="github">
   <diagram id="-UwCyb8EPpXwhege9Taq" name="Page-1">
-    <mxGraphModel dx="2494" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2266" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -417,6 +417,21 @@
         </mxCell>
         <mxCell id="8PEX_Hkn2caYpky-pX6P-157" value="JDBC driver的实现，基于它可以较容易实现一个JDBC Driver" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF99;size=15;" vertex="1" parent="1">
           <mxGeometry x="-370" y="230" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8PEX_Hkn2caYpky-pX6P-159" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="685" width="330" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="8PEX_Hkn2caYpky-pX6P-160" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CalciteJdbc41Connection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="722.5" width="186" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8PEX_Hkn2caYpky-pX6P-161" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="762.5" width="186" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8PEX_Hkn2caYpky-pX6P-162" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="772.5" width="186" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8PEX_Hkn2caYpky-pX6P-163" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="-241" y="727.5" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
