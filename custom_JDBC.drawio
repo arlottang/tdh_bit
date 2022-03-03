@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T10:32:39.978Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="FV6LHLHFrakbq6-9Rkyh" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T10:37:18.331Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Ild1rHRqGJUm9uTx6djn" version="16.6.2" type="github">
   <diagram id="AoQIWtYYpwWVk6ZIjzAr" name="Page-1">
     <mxGraphModel dx="3157" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5O7vwhL4JTgxeK-SQRp--77" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="70" width="711" height="680" as="geometry" />
+        <mxCell id="5O7vwhL4JTgxeK-SQRp--79" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="-99" y="92" width="674" height="660" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C3ABD0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="440" height="80" as="geometry" />
+          <mxGeometry x="140" y="150" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--2" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="191" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--3" value="java.sql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
-          <mxGeometry x="200" y="110" width="80" height="40" as="geometry" />
+          <mxGeometry x="140" y="120" width="80" height="29" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--4" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Connection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="391" y="160" width="120" height="40" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="-54" y="200" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--10" value="org.apache.calcite.linq4j" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="109" width="170" height="40" as="geometry" />
+          <mxGeometry x="-50" y="120" width="140" height="29" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="191" y="210" width="120" height="10" as="geometry" />
@@ -44,13 +44,13 @@
           <mxGeometry x="391" y="210" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--13" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;CalciteConnection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="295" width="150" height="40" as="geometry" />
+          <mxGeometry x="193" y="295" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="335" width="150" height="10" as="geometry" />
+          <mxGeometry x="193" y="335" width="150" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="345" width="150" height="10" as="geometry" />
+          <mxGeometry x="193" y="345" width="150" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#FFF2CC;shadow=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5O7vwhL4JTgxeK-SQRp--13" target="5O7vwhL4JTgxeK-SQRp--12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--25" value="I" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E6D0DE;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="236" y="300" width="30" height="30" as="geometry" />
+          <mxGeometry x="203" y="300" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--27" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="530" width="120" height="40" as="geometry" />
@@ -95,16 +95,16 @@
           <mxGeometry x="20" y="580" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--30" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;UnregisteredDriver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-79" y="335" width="160" height="40" as="geometry" />
+          <mxGeometry x="-72" y="335" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-79" y="375" width="160" height="10" as="geometry" />
+          <mxGeometry x="-72" y="375" width="160" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-79" y="385" width="160" height="10" as="geometry" />
+          <mxGeometry x="-72" y="385" width="160" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--33" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-72" y="340" width="30" height="30" as="geometry" />
+          <mxGeometry x="-65" y="340" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--34" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#9AC7BF;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="535" width="30" height="30" as="geometry" />
@@ -181,7 +181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--52" value="avatica框架的jdbc connection实现" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF99;size=16;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="389.5" y="400" width="193" height="40" as="geometry" />
+          <mxGeometry x="363.5" y="400" width="193" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--53" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFF2CC;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="5O7vwhL4JTgxeK-SQRp--54" target="5O7vwhL4JTgxeK-SQRp--30">
           <mxGeometry relative="1" as="geometry">
@@ -189,19 +189,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--54" value="基于它可以较容易实现一个JDBC Driver" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF99;size=15;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-64" y="260" width="130" height="40" as="geometry" />
+          <mxGeometry x="-58" y="260" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--60" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;AvaticaConnection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="406" y="295" width="160" height="40" as="geometry" />
+          <mxGeometry x="373" y="295" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="406" y="335" width="160" height="10" as="geometry" />
+          <mxGeometry x="373" y="335" width="160" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="406" y="345" width="160" height="10" as="geometry" />
+          <mxGeometry x="373" y="345" width="160" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--63" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="413" y="300" width="30" height="30" as="geometry" />
+          <mxGeometry x="380" y="300" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--66" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CustomDriver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="15" y="650" width="130" height="40" as="geometry" />
@@ -240,7 +240,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5O7vwhL4JTgxeK-SQRp--76" value="本项目中自定义实现的Driver和Connection" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF99;size=16;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="389.5" y="650" width="190.5" height="50" as="geometry" />
+          <mxGeometry x="364.5" y="650" width="190.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
