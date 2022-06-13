@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T09:12:26.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="I0Nj4D-KdFiWBpXM9YBN" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T11:56:04.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="277vr7UMNBN-zBhrIjdy" version="19.0.1" type="github">
   <diagram id="D7DLIJLz3GfTjft8JlKu" name="Page-1">
-    <mxGraphModel dx="2514" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2477" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -480,6 +480,99 @@
             <mxPoint x="-590" y="380" as="sourcePoint" />
             <mxPoint x="-540" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-149" value="一期实现---ServerMaster" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-640" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-150" value="已服务的方式运行，启动 ResourceManager/Jobmanager，内置 etcd，实现选举，非 leader 实现消息转发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-149">
+          <mxGeometry y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-151" value="接受用户提交同步任务，启动 job，暂停 job，查询 job 状态，ResourceManager 分配 executor 执行 task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-149">
+          <mxGeometry y="60" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-152" value="和 executor 进行交互，实现 心跳机制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-149">
+          <mxGeometry y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-154" value="Resource Manager 能正常接受 executor workload 的更新，并实现分配策略，支持动态加入新的 executor" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-520" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-155" value="JobManager 能检测到 job 是否正常工作" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-490" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-160" value="一期实现---ServerMaster---处理 failover" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-460" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-161" value="ServerMaster crash 之后，能后恢复 ResourceManager 和 JobManager 的状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-160">
+          <mxGeometry y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-162" value="executor crash 之后，ResourceManager 不再调度新的任务给改 executor，JobManager 能够将上面的 jobmaster 重新调度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-160">
+          <mxGeometry y="60" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-163" value="新加入一台 executor，ResourceManager 可以纳入调度任务，负载均衡暂不处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-160">
+          <mxGeometry y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-164" value="一期实现---JobMaster" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-320" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-165" value="初始化工作，接受用户的参数，生成多个 task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-164">
+          <mxGeometry y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-166" value="计算每个 task 的 workload，向 ResourceManager 申请 executor，向对应 executor 提交 task，咱不处理无资源的情况" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-164">
+          <mxGeometry y="60" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-167" value="实现心跳机制，task 与 jobmaster，jobmaster 与 jobManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-164">
+          <mxGeometry y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-168" value="定期更新同步进度，持久化到 metastore" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-200" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-169" value="未实现 stop、查询状态等方法---todo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-170" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-170" value="一期实现---JobMaster---处理 failover" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-140" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-171" value="某个或多个 task 所在的机器 crash，包含 task 所在的不通阶段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-170">
+          <mxGeometry y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-172" value="serverMaster 所在机器的 crash" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-170">
+          <mxGeometry y="60" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-173" value="jobmaster 所在的机器 crash，包含 jobmaster 所在不同的阶段---todo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-170">
+          <mxGeometry y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-174" value="一期实现---Executor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="80" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-175" value="初始化工作，提供 message server 和 meta server 供 task 运行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-174">
+          <mxGeometry y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-176" value="能够提供运行环境给 jobmaster 和 task 运行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-174">
+          <mxGeometry y="60" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-177" value="能够收集 workload 定时汇报给 ResourceManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-174">
+          <mxGeometry y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-178" value="转发收到的 rpccall 给 task 或 jobmaster，同时为 task 和 jobmaster 提供消息发送服务---todo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="200" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-179" value="提供监控信息，包括本节点的 workload，每个 task 的运行时常等---todo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="230" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-180" value="一期实现---Meta Server" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-181" value="提供 CRUD 操作接口---todo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-180">
+          <mxGeometry y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-182" value="支持按前缀的范围查询---todo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-180">
+          <mxGeometry y="60" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-183" value="基于内置的 etcd 实现该接口，不提供事务、watch 机制---todo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PlYhSPFlGhTk4VVI2BsF-180">
+          <mxGeometry y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlYhSPFlGhTk4VVI2BsF-184" value="对应用提供独立的 etcd 服务（按需申请），不走 meta server 接口，便于业务迁移---todo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="440" width="600" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
